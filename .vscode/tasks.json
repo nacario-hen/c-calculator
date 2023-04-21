@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${workspaceFolder}\\$main.exe"
+			],
+			"options": {
+				"cwd": "\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: \"\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\gcc.exe\""
+		}
+	]
+}
